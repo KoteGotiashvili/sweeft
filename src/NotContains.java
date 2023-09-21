@@ -8,6 +8,7 @@ public class NotContains {
         //now find min number after founded number which is not in array
         //Solution 1 - Sort then find -
         //Solution 2 - Brute Force Solution - check all possible founded+1 in array --
+        //Solution 3 HashSet +
         int[] arr={1,2,10,6,4,3,5,9,123,4};
         System.out.println(notContains(arr));
     }
